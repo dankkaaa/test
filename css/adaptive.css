@@ -1,0 +1,654 @@
+  /* Large Devices, Wide Screens */
+  @media only screen and (max-width: 1200px) {
+
+    .header_2 {
+      margin-left: -100px;
+    }
+
+    .btn {
+      background-color: rgb(245, 245, 245);
+      border-radius: 0px !important;
+      font-size: 16px;
+    }
+
+
+    .faskon_png {
+      display: none;
+    }
+
+    .logo {
+      margin-left: -30px;
+    }
+
+    .ender {
+      width: 1500px;
+    }
+
+    .title {
+      padding-left: 360px;
+    }
+
+    .faskon_png {
+      width: 20px;
+      padding-bottom: -50px;
+    }
+
+    .main_bg {
+      width: 1500px;
+    }
+
+
+    .main_desc {
+      padding-top: 60px;
+    }
+
+    .main_2 {
+      padding-left: 360px;
+      padding-top: 150px;
+    }
+
+    .main_title {
+      padding-left: 70px;
+    }
+
+
+    .map {
+      width: 1500px;
+    }
+
+    .hover-text-one {
+      padding-left: 360px;
+    }
+
+
+
+    .photo {
+      padding-top: 215px;
+    }
+
+    .text {
+      padding-right: 10px;
+      padding-top: 50px
+    }
+
+    .photo_2 {
+      margin-left: -7%;
+      /* отступ между картинкой и текстом */
+      margin-top: 175px;
+      width: 900px;
+      height: 900px;
+    }
+
+    .tip_remonta {
+      margin-left: 1075px;
+      margin-top: 0px;
+      font-size: 35px;
+      text-align: center;
+      width: 30%;
+    }
+
+    .text_opisanie {
+      margin-left: 290px;
+      margin-bottom: 00px;
+      font-size: 30px;
+      text-align: center;
+      width: 102%;
+    }
+
+    .text_uslug {
+      margin-left: 1200px;
+      margin-bottom: 000px;
+    }
+
+    .text_uslugi {
+      margin-left: 1075px;
+      font-size: 25px;
+      width: 20%;
+    }
+
+
+    .photo_2_2 {
+      margin-left: -7%;
+      /* отступ между картинкой и текстом */
+      margin-top: 175px;
+      width: 900px;
+      height: 900px;
+    }
+
+
+
+    .footer {
+      margin-top: 250px;
+    }
+
+
+
+
+    .kartinka {
+      margin-left: 180px;
+      width: 900px;
+      height: 900px;
+    }
+
+    .text_1 {
+      margin-left: 595px;
+    }
+
+    .text_2 {
+      margin-top: 70px;
+      margin-left: 200px;
+    }
+
+    .text_2_2 {
+      margin-top: 280px;
+      margin-left: 300px;
+    }
+
+    .text_3 {
+      margin-top: 430px;
+      margin-left: 685px;
+    }
+
+    .text_4 {
+      margin-top: 500px;
+      margin-left: 200px;
+    }
+
+    .text_5 {
+      margin-top: 550px;
+      margin-left: 315px;
+    }
+
+    .text_6 {
+      margin-top: 640px;
+      width: 20%;
+      margin-left: 1000px;
+    }
+
+    .text_7 {
+      margin-top: 490px;
+      width: 20%;
+      margin-left: 1000px;
+    }
+
+    .text_8 {
+      margin-top: 650px;
+      margin-left: 150px;
+    }
+
+
+
+    .footer_2 {
+      width: 1500px;
+      margin-top: 900px;
+    }
+
+
+
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width: 992px) {
+      .main_2 {
+        padding-left: 350px;
+        padding-top: 150px;
+      }
+
+      .hover-text-one {
+        padding-left: 390px;
+      }
+
+      .title {
+        margin-left: 180px;
+      }
+
+      /* доп-темки*/
+      .photo_2 {
+        margin-left: -120px;
+        margin-top: 130px;
+      }
+
+      .tip_remonta {
+        margin-top: 0px;
+
+      }
+
+
+      .text_opisanie {
+        margin-top: -110px;
+        width: 120%;
+      }
+
+      .text_uslugi {
+        width: 30%;
+      }
+
+
+      .tip {
+        margin-left: 1000px;
+        display: one;
+      }
+
+      .tip_remonta {
+        padding-bottom: 100px;
+      }
+
+      .footer {
+        margin-top: 550px;
+      }
+
+      .text_2 {
+        margin-left: 320px;
+      }
+
+      .text_2_2 {
+        margin-top: 300px;
+        margin-left: 220px;
+        width: 120%;
+      }
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width: 868px) {
+      .main_2 {
+        padding-left: 520px;
+        width: 100%;
+        padding-top: 150px;
+      }
+
+      .hover-text-one {
+        padding-left: 400px;
+      }
+
+      .title {
+        padding-left: 340px;
+        width: 100%;
+      }
+
+      /* доп-темки*/
+      .photo_2 {
+        margin-left: 210px;
+        margin-top: 130px;
+      }
+
+      .tip_remonta {
+        margin-left: 650px;
+        font-size: 45px;
+        font-weight: 550;
+        margin-top: -1px;
+      }
+
+
+      .text_opisanie {
+        margin-top: -110px;
+        width: 120%;
+        margin-left: 220px;
+        font-size: 45px;
+      }
+
+      .text_uslug {
+        width: 100%;
+        margin-left: 630px;
+        font-size: 55px;
+      }
+
+      .text_uslugi {
+        width: 100%;
+        margin-left: 320px;
+        font-size: 45px;
+      }
+
+
+      .tip {
+        margin-left: 1000px;
+        display: one;
+      }
+
+      .kartinka {
+        margin-left: 230px;
+      }
+
+      .text_1 {
+        margin-left: 600px;
+        width: 100%;
+      }
+
+      .text_2 {
+        margin-left: 380px;
+      }
+
+      .text_2_2 {
+        margin-left: 300px;
+        margin-top: 330px;
+      }
+
+      .text_3 {
+        margin-top: 470px;
+      }
+
+      .text_4 {
+        margin-top: 540px;
+      }
+
+      .text_5 {
+        margin-top: 580px;
+      }
+
+      .text_6 {
+        margin-top: 650px;
+        width: 50%;
+      }
+
+      .text_7 {
+        margin-top: 535px;
+        width: 50%;
+      }
+    }
+
+
+
+    @media only screen and (max-width: 770px) {
+      .main_2 {
+        margin-left: 230px;
+        width: 100%;
+      }
+
+      .hover-text-one {
+        padding-left: 405px;
+      }
+
+      .title {
+        margin-left: 220px;
+        width: 100%;
+      }
+
+      /* доп-темки*/
+      .photo_2 {
+        margin-left: 180px;
+        margin-top: 130px;
+
+
+      }
+
+      .tip_remonta {
+        margin-left: 650px;
+        font-size: 45px;
+        font-weight: 550;
+        margin-top: -1px;
+
+      }
+
+
+      .text_opisanie {
+        margin-top: -110px;
+        width: 120%;
+        margin-left: 290px;
+        font-size: 45px;
+      }
+
+      .text_uslug {
+        width: 100%;
+        margin-left: 630px;
+        font-size: 55px;
+      }
+
+      .text_uslugi {
+        width: 100%;
+        margin-left: 400px;
+        font-size: 45px;
+      }
+
+
+
+
+
+
+      .footer {
+        margin-top: 550px;
+      }
+
+      .kartinka {
+        margin-left: 270px;
+      }
+
+      .text_1 {
+        margin-left: 600px;
+        width: 100%;
+      }
+
+      .text_2 {
+        margin-left: 300px;
+        width: 120%;
+      }
+
+      .text_2_2 {
+        margin-left: 300px;
+        margin-top: 330px;
+      }
+
+      .text_3 {
+        margin-top: 490px;
+      }
+
+      .text_4 {
+        margin-top: 540px;
+      }
+
+      .text_5 {
+        margin-top: 580px;
+      }
+
+      .text_6 {
+        margin-top: 650px;
+        width: 50%;
+      }
+
+      .text_7 {
+        margin-top: 535px;
+        width: 50%;
+      }
+    }
+
+
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (max-width: 480px) {
+      .main_2 {
+        padding-right: -300px;
+        width: 200%;
+        padding-top: 50px;
+      }
+
+      .hover-text-one {
+        padding-left: 400px;
+      }
+
+      .title {
+        padding-left: 200px;
+        width: 200%;
+      }
+
+      /* доп-темки*/
+      .photo_2 {
+        margin-left: 280px;
+        margin-top: 130px;
+
+
+      }
+
+      .tip_remonta {
+        margin-left: 520px;
+        font-size: 45px;
+        font-weight: 550;
+        width: 100%;
+        margin-top: -1px;
+
+      }
+
+
+      .text_opisanie {
+        margin-top: -110px;
+        width: 150%;
+        margin-left: 400px;
+        font-size: 45px;
+      }
+
+      .text_uslug {
+        width: 100%;
+        margin-left: 620px;
+        font-size: 55px;
+      }
+
+      .text_uslugi {
+        width: 120%;
+        margin-left: 450px;
+        font-size: 45px;
+
+      }
+
+
+
+
+      .footer {
+        margin-top: 550px;
+      }
+
+      .kartinka {
+        margin-left: 300px;
+      }
+
+      .text_1 {
+        margin-left: 600px;
+      }
+
+      .text_2 {
+        margin-left: 330px;
+        width: 180%;
+      }
+
+      .text_2_2 {
+        margin-left: 350px;
+        width: 180%;
+      }
+
+      .text_3 {
+        margin-top: 520px;
+      }
+
+      .text_4 {
+        margin-top: 600px;
+        width: 100%;
+      }
+
+      .text_5 {
+        margin-top: 650px;
+        width: 100%;
+      }
+
+      .text_6 {
+        margin-top: 590px;
+        width: 100%;
+      }
+
+      .text_7 {
+        margin-top: 730px;
+        margin-left: 980px;
+        width: 100%;
+      }
+
+      .text_8 {
+        margin-top: 720px;
+        margin-left: 250px;
+      }
+
+
+      .footer_2 {
+        margin-top: 1100px;
+      }
+    }
+
+    /* Custom, iPhone Retina */
+    @media only screen and (max-width: 400px) {
+      .main_2 {
+        margin-left: 260px;
+        width: 200%;
+        padding-top: 50px;
+      }
+
+      .hover-text-one {
+        padding-left: 400px;
+      }
+
+      .title {
+        margin-left: 260px;
+        width: 200%;
+      }
+
+      /* доп-темки*/
+      .photo_2 {
+        margin-left: 280px;
+        margin-top: 130px;
+
+
+      }
+
+
+      .tip_remonta {
+        margin-left: 580px;
+        font-size: 45px;
+        font-weight: 550;
+        padding-top: -1px;
+
+
+      }
+
+
+      .text_opisanie {
+        margin-top: -110px;
+        width: 150%;
+        margin-left: 460px;
+        font-size: 45px;
+      }
+
+      .text_uslug {
+        width: 100%;
+        margin-left: 630px;
+        font-size: 55px;
+      }
+
+      .text_uslugi {
+        width: 200%;
+        margin-left: 400px;
+        font-size: 45px;
+      }
+
+
+
+
+
+
+      .footer {
+        margin-top: 750px;
+      }
+
+      .text_1 {
+        width: 200%;
+      }
+
+      .text_2 {
+        width: 230%;
+        margin-left: 320px;
+      }
+
+      .text_2_2 {
+        width: 230%;
+
+      }
+
+      .footer_2 {
+        margin-top: 1480px;
+      }
+
+      @media only screen and (max-width: 400px) {}
+    }
+  }

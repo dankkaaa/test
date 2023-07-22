@@ -1,0 +1,513 @@
+
+body, 
+html {
+	background-color: rgb(245, 245, 245);
+	font-family: 'Montserrat', sans-serif;
+	min-width: 400px;
+}
+
+
+
+
+.header{
+  background-color: rgb(245, 245, 245);
+  width: 100%;
+  position: fixed;
+  z-index: 8888;
+  box-shadow: 10px 7px 15px 0px rgba(0, 0, 0, 0.212);
+  vertical-align: middle;
+}
+
+.btn {
+  background-color: rgb(245, 245, 245);
+  border-radius: 0px !important;
+  font-size:17px;
+}
+
+.logo {
+	margin-left: 30px
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(0, 36, 56);
+  background-color: rgb(85, 200, 253);
+  text-decoration: none;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  background-color: black;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(85, 200, 253);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+.title {
+  font-size: 40px;
+  font-family: 'Ysabeau', sans-serif !important;
+  font-weight: 700;
+  color: rgb(39, 39, 39);
+}
+
+.main_2 {
+  text-align: center;
+  padding-top: 150px;
+}
+
+.ender {
+  width: 100%;
+  height: 150px;
+  background-color: rgb(221, 221, 221);
+  font-size: 19px;
+  padding-left: 50px;
+  padding-top: 15px;
+}
+
+.main_bg {
+    height: 1000px;
+    width: 100%;
+    background-size: 100% auto;
+    background-repeat: round;
+}
+
+.main_title {
+    font-size: 80px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 9%;
+}
+
+.main_dirt {
+	font-size: 30px;
+	padding-left:400px;
+	padding-top:20px;
+	color: rgb(221, 221, 221);
+	font-family: 'Ysabeau', sans-serif !important;
+	font-weight: 100;
+  }
+
+.main_desc {
+  font-size: 30px;
+  padding-left:70px;
+  padding-top:29px;
+  color: rgb(221, 221, 221);
+  font-family: 'Ysabeau', sans-serif !important;
+  font-weight: 300;
+  position:absolute;
+}
+
+.main_deka {
+	font-size: 30px;
+	padding-left:1200px;
+	padding-top:25px;
+	color: rgb(221, 221, 221);
+	font-family: 'Ysabeau', sans-serif !important;
+	font-weight: 100;
+	position:absolute;
+  }
+
+  .main_dekar {
+	font-size: 30px;
+	padding-left:70px;
+	padding-top:340px;
+	color: rgb(221, 221, 221);
+	font-family: 'Ysabeau', sans-serif !important;
+	font-weight: 300;
+	position:absolute;
+  }
+
+  .main_dekat {
+	font-size: 30px;
+	padding-left:1200px;
+	padding-top:340px;
+	color: rgb(221, 221, 221);
+	font-family: 'Ysabeau', sans-serif !important;
+	font-weight: 100;
+	position:absolute;
+  }
+
+
+.servis {
+width: 100px; 
+height: 100px;
+}
+
+.galka {
+	width: 100px; 
+	height: 100px;
+	}
+
+.hov {
+  margin-top:50px;
+  margin-left: 10px;
+}
+
+
+/* Общие стили */
+*, *:after, *:before { 
+	box-sizing: border-box; 
+}
+
+.clearfix:before, .clearfix:after { 
+	content: ''; 
+	display: table; 
+}
+.clearfix:after { 
+	clear: both; 
+}
+.hover-text-one {
+	overflow: hidden;
+	margin: 0;
+	width: 100%;
+	list-style: none;
+	text-align: center;
+}
+.hover-text-one figure {
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	overflow: hidden;
+	text-align: center;
+	cursor: pointer;
+}
+.hover-text-one figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	opacity: 0.8;
+}
+.hover-text-one figure figcaption {
+	padding: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.hover-text-one figure figcaption::before,
+.hover-text-one figure figcaption::after {
+	pointer-events: none;
+}
+.hover-text-one figure figcaption{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.hover-text-one figure h3 {
+	word-spacing: -0.15em;
+	font-weight: 300;
+}
+.hover-text-one figure h3 span {
+	font-weight: 800;
+}
+.hover-text-one figure h3,
+.hover-text-one figure p {
+	margin: 0;
+}
+.hover-text-one figure p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+
+/* Эффект при наведении */
+figure.effect-text-three {
+	background: #000000f1;
+}
+figure.effect-text-three img {
+	width: -webkit-calc(100% + 20px);
+	width: calc(100% + 20px);
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	transform: scale(1.1);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+figure.effect-text-three:hover img {
+	opacity: 0.4;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+figure.effect-text-three figcaption {
+	text-align: left;
+}
+figure.effect-text-three h3 {
+	position: relative;
+	overflow: hidden;
+	padding: 0.5em 0;
+}
+figure.effect-text-three h3::after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 3px;
+	background: #fff;
+	content: '';
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(-100%,0,0);
+	transform: translate3d(-100%,0,0);
+}
+figure.effect-text-three:hover h3::after {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+figure.effect-text-three p {
+	padding: 1em 0;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(100%,0,0);
+	transform: translate3d(100%,0,0);
+}
+figure.effect-text-three:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.head_2 {
+  background-color: rgb(34, 159, 218);
+  color: rgb(0, 42, 97);
+  width: 100%;
+  position: fixed;
+  font-weight: 700;
+}
+
+
+.wrapper._free .page__pagination {				/*Скрытие Буллитов если контента больше чем 1 эркан!!!!*/
+	transition: all 0.3s ease 0s;
+	transform: translate(50px, -50%);
+	opacity: 0;
+}
+
+
+
+
+
+
+.photo {
+	float: left;
+	margin-left:-40%; /* отступ между картинкой и текстом */
+	padding-top: 160px;
+	padding-left: 260px;
+  }
+  
+  .p{
+	font-family: 'Ysabeau', sans-serif !important;
+	font-size: 30px;
+	position:absolute;
+	padding-left:1300px
+  }
+  
+ .p_1{
+	font-size:	400px;
+ }
+
+  .text{
+	font-family: 'Ysabeau', sans-serif !important;
+	font-size: 25px;
+	position:absolute;
+	padding-left:1000px;
+  }
+
+
+  .footer{
+	width: 100%;
+	height: 150px;
+	background-color: rgb(221, 221, 221);
+	font-size: 19px;
+	padding-left: 50px;
+	margin-top: 350px;
+	padding-top:15px;
+  }
+
+  .kartinka{
+	margin-left: 120px;
+	margin-top:130px;
+	width:1000px;
+	height:960px;
+  }
+  
+
+  .text_1{
+	font-family: 'Ysabeau', sans-serif !important;
+	font-size: 45px;
+	position:absolute;
+	margin-left:735px;
+	margin-bottom:790px;
+	text-align:bottom;
+  }
+
+  .text_2{
+	font-family: 'Ysabeau', sans-serif !important;
+	font-size: 25px;
+	font-weight: 100px;
+	position:absolute;
+	text-align:center;
+	width:90%;
+	margin-left:110px;
+	margin-top:100px;
+  }
+
+  .text_2_2{
+	font-family: 'Ysabeau', sans-serif !important;
+	font-size: 25px;
+	font-weight: 100px;
+	position:absolute;
+	text-align:center;
+	margin-left:50px;
+	margin-top:1000px;
+  }
+
+  .text_3{
+	font-family: 'Ysabeau', sans-serif !important;
+	font-size: 45px;
+	font-weight: 100px;
+	position:absolute;
+	margin-left:815px;
+	text-align:bottom;
+	margin-top:300px;
+  }
+
+
+
+  .text_4{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	font-weight: 100px;
+	position:absolute;
+	margin-left:400px;
+	margin-top:390px;
+  }
+
+  .text_5{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	font-weight: 100px;
+	position:absolute;
+	margin-left:520px;
+	margin-top:445px;
+  }
+
+  .text_6{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	font-weight: 100px;
+	position:absolute;
+	margin-left:1050px;
+	margin-top:390px;
+  }
+
+
+  .text_7{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	font-weight: 100px;
+	position:absolute;
+	margin-left:1050px;
+	margin-top:445px;
+  }
+
+
+  .text_8{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	font-weight: 100px;
+	position:absolute;
+	margin-left:650px;
+	margin-top:550px;
+  }
+
+  .header_2{
+  margin-top:10px;
+  white-space: nowrap;
+  padding-top:5px;
+}
+
+ .faskon_png{
+	width: 40px;
+ }
+
+ .nav_slesar{
+	margin-left:50%;
+ }
+
+
+ .text_2_2{
+	margin-top:210px;
+	margin-bottom:80px;
+	text-align:left;
+ }
+
+
+ .tip_remonta{
+	font-family: 'Ysabeau', sans-serif !important;
+	font-size: 35px;
+	margin-left:1300px;
+	padding-top:120px;
+	
+	
+  }
+ 
+
+ .text_opisanie{
+	font-family: 'Ysabeau', sans-serif !important;
+	font-size: 25px;
+	margin-left:1025px;
+  }
+
+  .text_uslug{
+	font-family: 'Ysabeau', sans-serif !important;
+	font-size: 35px;
+	margin-left:1350px;
+  }
+
+  .text_uslugi{
+	font-family: 'Ysabeau', sans-serif !important;
+	font-size: 25px;
+	margin-left:1025px;
+  }
+
+
+  .photo_2{
+    float: left;
+    margin-left:-240px; /* отступ между картинкой и текстом */
+    margin-top: 160px; 
+    }
+
+	
+
+
+
+	.footer_2{
+		width: 100%;
+		height: 150px;
+		background-color: rgb(221, 221, 221);
+		font-size: 19px;
+		padding-left: 50px;
+		margin-top: 700px;
+		padding-top:15px;
+	  }
+
+
+
+ 
+
+
+
+
